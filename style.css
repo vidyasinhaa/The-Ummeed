@@ -119,27 +119,27 @@ nav li:first-child{
 }
 
 .slider .slide:nth-child(1) {
-  background-image: url(images/social/070A1105-11-2-1-1.png);
+  background-image: url(070A1105-11-2-1-1.png);
   animation-delay: 0s;
 }
 
 .slider .slide:nth-child(2) {
-  background-image: url(images/social/074A2862-scaled.jpg);
+  background-image: url(074A2862-scaled.jpg);
   animation-delay: -4s;
 }
   
 .slider .slide:nth-child(3) {
-  background-image: url(images/social/Branding-22-scaled.jpg);
+  background-image: url(Branding-22-scaled.jpg);
   animation-delay: -8s;
 }
   
 .slider .slide:nth-child(4) {
-  background-image: url(images/social/AW2A6822-1-2.png);
+  background-image: url(AW2A6822-1-2.png);
   animation-delay: -12s;
 }
 
 .slider .slide:nth-child(5) {
-  background-image: url(images/social/Branding-30-scaled.jpg);
+  background-image: url(Branding-30-scaled.jpg);
   animation-delay: -16s;
 }
 
@@ -350,7 +350,7 @@ nav li:first-child{
 .project-card {
   width: 90%;
   height: 450px;
-  background-image: url(OURwork/Web_1583x5503.jpg);
+  background-image: url(Web_1583x5503.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -474,7 +474,7 @@ nav li:first-child{
 }
 
 #project1 {
-  background-image: url(OURwork/Web_1583x5503.jpg);
+  background-image: url(Web_1583x5503.jpg);
 }
 
 
