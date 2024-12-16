@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMMEED ||PROJECTS</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+<div class="wrapper">
+<nav>
+            <ul class="sidebar">
+              <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960"  width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html">About</a></li>
+              <li><a href="index.html">Projects</a></li>
+              <li><a href="index.html">Volunteers</a></li>
+              <li><a href="index.html">Gallery</a></li>
+              <li><a href="index.html">Contact Us</a></li>
+            </ul>
+            <ul>
+              <li><a href="#"><h2>UMMEED</h2></a></li>
+              <li class="hideOnMobile"><a href="index.html">Home</a></li>
+              <li class="hideOnMobile"><a href="index.html">About</a></li>
+              <li class="hideOnMobile"><a href="index.html">Project</a></li>
+              <li class="hideOnMobile"><a href="index.html">Volunteers</a></li>
+              <li class="hideOnMobile"><a href="index.html">Gallery</a></li>
+              <li class="hideOnMobile"><a href="index.html">Contact Us</a></li>
+              <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" style="color: #fff;" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+            </ul>
+</nav>	
+<div class="project">
+    <div class="project-header">
+        <h1>PROJECTS</h1>
+    </div>
+    <div class="about-project">
+    <div class="project-img">
+        <img src="projects/food/pak_floods_20100819-640x426-removebg-preview.png" alt="">
+    </div>
+    <div class="project-cont">
+        <h1>BHOOKH</h1>
+        <p>Welcome to The Ummeed Foundation, where we are committed to supporting Sustainable Development Goal 2: Zero Hunger through innovative solutions.We are driven by the belief that food is a basic human right, and through collective effort, we can make a tangible difference in our communities.Our platform harnesses the power of community and technology to bridge the gap between surplus food and  <br>
+        At this project, we partner with local restaurants to minimize food waste and maximize impact. Through the installation of advanced thermal steel containers, equipped with separate compartments for rice, bread, curry, vegetarian dishes, and non-vegetarian options, we ensure that donated food remains fresh and organized. These containers are designed with special features to preserve warmth and freshness, guaranteeing that the meals provided to those in need are not only nutritious but also satisfying. <br>
+        When these containers are filled with surplus or donated food, our system automatically notifies our dedicated volunteers via our website. They swiftly collect the donations from the restaurants and distribute them to local shelters, food banks, and directly to individuals facing food insecurity. <br>
+        Join us in our mission to create a sustainable and compassionate future where every meal counts. Together, we can make a significant impact in our community and beyond, ensuring that no one goes hungry while promoting responsible food consumption.</p>
+    </div>
+    
+    </div>
+</div>
+<div class="footer">
+    <div class="row">
+    <div class="col">
+                        <img src="content/footer-logo.png" class="logo">
+    </div>
+    <div class="col">
+                        <h3>Office <div class="underline"><span></span></div> </h3>
+                        <p>Bada Taalab</p>
+                        <p>Marwari College ,Ranchi</p>
+                         <p>Jharkahnd, PIN 835301, India</p>
+                         <p class="email-id">ummeedhelpdesk@gmail.com</p>
+                         <p>+91 0212858425</p>
+    </div>
+    <div class="col">
+                        <h3>Links<div class="underline"><span></span></div></h3>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Project</a></li>
+                            <li><a href="">Events</a></li>
+                            <li><a href="">Gallery</a></li>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Donate</a></li>
+                        </ul>
+    </div>
+    <div class="col">
+                        <h3>News Letter<div class="underline"><span></span></div></h3>
+                        <form>
+                            <i class="fa-regular fa-envelope"></i>
+                            <input type="email" placeholder="Enter your email id" required>
+                            <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                        </form>
+                        <div class="social-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <i class="fa-brands fa-facebook"></i>
+    
+                        </div>
+    </div>
+    </div>
+    <hr>
+    <p class="copyright"> All Right Reserved © 2024 The Ummeed Foundation <br>
+    Developed with <i class="fa-solid fa-heart" style="color: #e70d44;"></i> by <a href="https://www.instagram.com/123_100rav?igsh=dzhrNnBidzluYWp2">Sourabh </a>  & <a href="https://www.instagram.com/vidy_asinhaa?igsh=cnRoYXgyYmJsaDdn"> Vidya </a></p>
+</div>
+</div>
+
+</div>
+   
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    
+<script type="text/javascript">
+	
+	// Access the testimonials
+	let testSlide = document.querySelectorAll('.testItem');
+	// Access the indicators
+	let dots = document.querySelectorAll('.dot');
+
+	var counter = 0;
+
+	// Add click event to the indicators
+	function switchTest(currentTest){
+		currentTest.classList.add('active');
+		var testId = currentTest.getAttribute('attr');
+		if(testId > counter){
+			testSlide[counter].style.animation = 'next1 0.5s ease-in forwards';
+			counter = testId;
+			testSlide[counter].style.animation = 'next2 0.5s ease-in forwards';
+		}
+		else if(testId == counter){return;}
+		else{
+			testSlide[counter].style.animation = 'prev1 0.5s ease-in forwards';
+			counter = testId;
+			testSlide[counter].style.animation = 'prev2 0.5s ease-in forwards';
+		}
+		indicators();
+	}
+
+	// Add and remove active class from the indicators
+	function indicators(){
+		for(i = 0; i < dots.length; i++){
+			dots[i].className = dots[i].className.replace(' active', '');
+		}
+		dots[counter].className += ' active';
+	}
+
+	// Code for auto sliding
+	function slideNext(){
+		testSlide[counter].style.animation = 'next1 0.5s ease-in forwards';
+		if(counter >= testSlide.length - 1){
+			counter = 0;
+		}
+		else{
+			counter++;
+		}
+		testSlide[counter].style.animation = 'next2 0.5s ease-in forwards';
+		indicators();
+	}
+	function autoSliding(){
+		deleteInterval = setInterval(timer, 6000);
+		function timer(){
+			slideNext();
+			indicators();
+		}
+	}
+	autoSliding();
+
+	// Stop auto sliding when mouse is over the indicators
+	const container = document.querySelector('.indicators');
+	container.addEventListener('mouseover', pause);
+	function pause(){
+		clearInterval(deleteInterval);
+	}
+
+	// Resume sliding when mouse is out of the indicators
+	container.addEventListener('mouseout', autoSliding);
+	function showSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+//to prevent from copy paste and right click
+
+
+</script>
+   
+	
+</body>
+</html>
